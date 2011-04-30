@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41BDC6F136C5D0A00567760 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC6E136C5D0A00567760 /* UIKit.framework */; };
+		B41BDC71136C5D0A00567760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC70136C5D0A00567760 /* Foundation.framework */; };
+		B41BDC73136C5D0A00567760 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC72136C5D0A00567760 /* CoreGraphics.framework */; };
+		B41BDC79136C5D0A00567760 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC77136C5D0A00567760 /* InfoPlist.strings */; };
+		B41BDC7C136C5D0A00567760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BDC7B136C5D0A00567760 /* main.m */; };
+		B41BDC7F136C5D0A00567760 /* WorldPhotosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BDC7E136C5D0A00567760 /* WorldPhotosAppDelegate.m */; };
+		B41BDC82136C5D0A00567760 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC80136C5D0A00567760 /* MainWindow.xib */; };
+		B41BDC85136C5D0B00567760 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BDC84136C5D0B00567760 /* RootViewController.m */; };
+		B41BDC88136C5D0B00567760 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC86136C5D0B00567760 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B41BDC6A136C5D0A00567760 /* WorldPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41BDC6E136C5D0A00567760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B41BDC70136C5D0A00567760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B41BDC72136C5D0A00567760 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B41BDC76136C5D0A00567760 /* WorldPhotos-Info.plist */ = {isa = PBXFileReference; path = "WorldPhotos-Info.plist"; sourceTree = "<group>"; };
+		B41BDC78136C5D0A00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B41BDC7A136C5D0A00567760 /* WorldPhotos-Prefix.pch */ = {isa = PBXFileReference; path = "WorldPhotos-Prefix.pch"; sourceTree = "<group>"; };
+		B41BDC7B136C5D0A00567760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B41BDC7D136C5D0A00567760 /* WorldPhotosAppDelegate.h */ = {isa = PBXFileReference; path = WorldPhotosAppDelegate.h; sourceTree = "<group>"; };
+		B41BDC7E136C5D0A00567760 /* WorldPhotosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldPhotosAppDelegate.m; sourceTree = "<group>"; };
+		B41BDC81136C5D0A00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B41BDC83136C5D0A00567760 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		B41BDC84136C5D0B00567760 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B41BDC87136C5D0B00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B41BDC67136C5D0A00567760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41BDC6F136C5D0A00567760 /* UIKit.framework in Frameworks */,
+				B41BDC71136C5D0A00567760 /* Foundation.framework in Frameworks */,
+				B41BDC73136C5D0A00567760 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B41BDC5F136C5D0A00567760 = {
+			isa = PBXGroup;
+			children = (
+				B41BDC74136C5D0A00567760 /* WorldPhotos */,
+				B41BDC6D136C5D0A00567760 /* Frameworks */,
+				B41BDC6B136C5D0A00567760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B41BDC6B136C5D0A00567760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B41BDC6A136C5D0A00567760 /* WorldPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B41BDC6D136C5D0A00567760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B41BDC6E136C5D0A00567760 /* UIKit.framework */,
+				B41BDC70136C5D0A00567760 /* Foundation.framework */,
+				B41BDC72136C5D0A00567760 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B41BDC74136C5D0A00567760 /* WorldPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				B41BDC7D136C5D0A00567760 /* WorldPhotosAppDelegate.h */,
+				B41BDC7E136C5D0A00567760 /* WorldPhotosAppDelegate.m */,
+				B41BDC80136C5D0A00567760 /* MainWindow.xib */,
+				B41BDC83136C5D0A00567760 /* RootViewController.h */,
+				B41BDC84136C5D0B00567760 /* RootViewController.m */,
+				B41BDC86136C5D0B00567760 /* RootViewController.xib */,
+				B41BDC75136C5D0A00567760 /* Supporting Files */,
+			);
+			path = WorldPhotos;
+			sourceTree = "<group>";
+		};
+		B41BDC75136C5D0A00567760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B41BDC76136C5D0A00567760 /* WorldPhotos-Info.plist */,
+				B41BDC77136C5D0A00567760 /* InfoPlist.strings */,
+				B41BDC7A136C5D0A00567760 /* WorldPhotos-Prefix.pch */,
+				B41BDC7B136C5D0A00567760 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B41BDC69136C5D0A00567760 /* WorldPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41BDC8B136C5D0B00567760 /* Build configuration list for PBXNativeTarget "WorldPhotos" */;
+			buildPhases = (
+				B41BDC66136C5D0A00567760 /* Sources */,
+				B41BDC67136C5D0A00567760 /* Frameworks */,
+				B41BDC68136C5D0A00567760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldPhotos;
+			productName = WorldPhotos;
+			productReference = B41BDC6A136C5D0A00567760 /* WorldPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B41BDC61136C5D0A00567760 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B41BDC64136C5D0A00567760 /* Build configuration list for PBXProject "WorldPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B41BDC5F136C5D0A00567760;
+			productRefGroup = B41BDC6B136C5D0A00567760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B41BDC69136C5D0A00567760 /* WorldPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B41BDC68136C5D0A00567760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41BDC79136C5D0A00567760 /* InfoPlist.strings in Resources */,
+				B41BDC82136C5D0A00567760 /* MainWindow.xib in Resources */,
+				B41BDC88136C5D0B00567760 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B41BDC66136C5D0A00567760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41BDC7C136C5D0A00567760 /* main.m in Sources */,
+				B41BDC7F136C5D0A00567760 /* WorldPhotosAppDelegate.m in Sources */,
+				B41BDC85136C5D0B00567760 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B41BDC77136C5D0A00567760 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41BDC78136C5D0A00567760 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B41BDC80136C5D0A00567760 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41BDC81136C5D0A00567760 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B41BDC86136C5D0B00567760 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41BDC87136C5D0B00567760 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B41BDC89136C5D0B00567760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B41BDC8A136C5D0B00567760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B41BDC8C136C5D0B00567760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldPhotos/WorldPhotos-Prefix.pch";
+				INFOPLIST_FILE = "WorldPhotos/WorldPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B41BDC8D136C5D0B00567760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldPhotos/WorldPhotos-Prefix.pch";
+				INFOPLIST_FILE = "WorldPhotos/WorldPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B41BDC64136C5D0A00567760 /* Build configuration list for PBXProject "WorldPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41BDC89136C5D0B00567760 /* Debug */,
+				B41BDC8A136C5D0B00567760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41BDC8B136C5D0B00567760 /* Build configuration list for PBXNativeTarget "WorldPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41BDC8C136C5D0B00567760 /* Debug */,
+				B41BDC8D136C5D0B00567760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B41BDC61136C5D0A00567760 /* Project object */;
+}
