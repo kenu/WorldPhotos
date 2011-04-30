@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class WorldPhotosAppDelegate;
 
 @interface RootViewController : UITableViewController {
 
 }
 
-
+- (WorldPhotosAppDelegate *)appDelegate;
 @end

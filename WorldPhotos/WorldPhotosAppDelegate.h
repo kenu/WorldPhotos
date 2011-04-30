@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface WorldPhotosAppDelegate : NSObject <UIApplicationDelegate> {
-
+    NSArray *photoArray;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+
+@property (readonly) NSArray *photoArray;
 
 @end

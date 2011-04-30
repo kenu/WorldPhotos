@@ -7,12 +7,14 @@
 //
 
 #import "RootViewController.h"
+#import "WorldPhotosAppDelegate.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.title = @"World Photos";
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -51,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [[self appDelegate].photoArray count];
 }
 
 // Customize the appearance of table view cells.
@@ -61,8 +63,14 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
+    
+    NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = [photoData valueForKey:@"Country"];
+    cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
+    cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
     // Configure the cell.
     return cell;
@@ -139,6 +147,11 @@
 - (void)dealloc
 {
     [super dealloc];
+}
+
+- (WorldPhotosAppDelegate *)appDelegate
+{
+    return [[UIApplication sharedApplication] delegate];
 }
 
 @end

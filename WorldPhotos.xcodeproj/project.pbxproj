@@ -16,6 +16,14 @@
 		B41BDC82136C5D0A00567760 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC80136C5D0A00567760 /* MainWindow.xib */; };
 		B41BDC85136C5D0B00567760 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BDC84136C5D0B00567760 /* RootViewController.m */; };
 		B41BDC88136C5D0B00567760 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC86136C5D0B00567760 /* RootViewController.xib */; };
+		B41BDC94136C690800567760 /* Europe_Swiss_1_thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC8E136C690800567760 /* Europe_Swiss_1_thumbnail.jpg */; };
+		B41BDC95136C690800567760 /* Asia_Japan_1_thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC8F136C690800567760 /* Asia_Japan_1_thumbnail.jpg */; };
+		B41BDC96136C690800567760 /* Africa_Morocco_1_thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC90136C690800567760 /* Africa_Morocco_1_thumbnail.jpg */; };
+		B41BDC97136C690800567760 /* Europe_Swiss_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC91136C690800567760 /* Europe_Swiss_1.jpg */; };
+		B41BDC98136C690800567760 /* Africa_Morocco_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC92136C690800567760 /* Africa_Morocco_1.jpg */; };
+		B41BDC99136C690800567760 /* Asia_Japan_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC93136C690800567760 /* Asia_Japan_1.jpg */; };
+		B41BDC9D136C6B1200567760 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC9C136C6B1200567760 /* CoreLocation.framework */; };
+		B41BDC9F136C6B2400567760 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC9E136C6B2400567760 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		B41BDC83136C5D0A00567760 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B41BDC84136C5D0B00567760 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B41BDC87136C5D0B00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		B41BDC8E136C690800567760 /* Europe_Swiss_1_thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Europe_Swiss_1_thumbnail.jpg; sourceTree = "<group>"; };
+		B41BDC8F136C690800567760 /* Asia_Japan_1_thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asia_Japan_1_thumbnail.jpg; sourceTree = "<group>"; };
+		B41BDC90136C690800567760 /* Africa_Morocco_1_thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Africa_Morocco_1_thumbnail.jpg; sourceTree = "<group>"; };
+		B41BDC91136C690800567760 /* Europe_Swiss_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Europe_Swiss_1.jpg; sourceTree = "<group>"; };
+		B41BDC92136C690800567760 /* Africa_Morocco_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Africa_Morocco_1.jpg; sourceTree = "<group>"; };
+		B41BDC93136C690800567760 /* Asia_Japan_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asia_Japan_1.jpg; sourceTree = "<group>"; };
+		B41BDC9C136C6B1200567760 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B41BDC9E136C6B2400567760 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41BDC9F136C6B2400567760 /* MapKit.framework in Frameworks */,
+				B41BDC9D136C6B1200567760 /* CoreLocation.framework in Frameworks */,
 				B41BDC6F136C5D0A00567760 /* UIKit.framework in Frameworks */,
 				B41BDC71136C5D0A00567760 /* Foundation.framework in Frameworks */,
 				B41BDC73136C5D0A00567760 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +87,8 @@
 		B41BDC6D136C5D0A00567760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B41BDC9E136C6B2400567760 /* MapKit.framework */,
+				B41BDC9C136C6B1200567760 /* CoreLocation.framework */,
 				B41BDC6E136C5D0A00567760 /* UIKit.framework */,
 				B41BDC70136C5D0A00567760 /* Foundation.framework */,
 				B41BDC72136C5D0A00567760 /* CoreGraphics.framework */,
@@ -85,6 +105,7 @@
 				B41BDC83136C5D0A00567760 /* RootViewController.h */,
 				B41BDC84136C5D0B00567760 /* RootViewController.m */,
 				B41BDC86136C5D0B00567760 /* RootViewController.xib */,
+				B41BDCA0136C6B5E00567760 /* Resources */,
 				B41BDC75136C5D0A00567760 /* Supporting Files */,
 			);
 			path = WorldPhotos;
@@ -99,6 +120,19 @@
 				B41BDC7B136C5D0A00567760 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B41BDCA0136C6B5E00567760 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B41BDC8E136C690800567760 /* Europe_Swiss_1_thumbnail.jpg */,
+				B41BDC8F136C690800567760 /* Asia_Japan_1_thumbnail.jpg */,
+				B41BDC90136C690800567760 /* Africa_Morocco_1_thumbnail.jpg */,
+				B41BDC91136C690800567760 /* Europe_Swiss_1.jpg */,
+				B41BDC92136C690800567760 /* Africa_Morocco_1.jpg */,
+				B41BDC93136C690800567760 /* Asia_Japan_1.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +185,12 @@
 				B41BDC79136C5D0A00567760 /* InfoPlist.strings in Resources */,
 				B41BDC82136C5D0A00567760 /* MainWindow.xib in Resources */,
 				B41BDC88136C5D0B00567760 /* RootViewController.xib in Resources */,
+				B41BDC94136C690800567760 /* Europe_Swiss_1_thumbnail.jpg in Resources */,
+				B41BDC95136C690800567760 /* Asia_Japan_1_thumbnail.jpg in Resources */,
+				B41BDC96136C690800567760 /* Africa_Morocco_1_thumbnail.jpg in Resources */,
+				B41BDC97136C690800567760 /* Europe_Swiss_1.jpg in Resources */,
+				B41BDC98136C690800567760 /* Africa_Morocco_1.jpg in Resources */,
+				B41BDC99136C690800567760 /* Asia_Japan_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,12 +273,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: GWANGNAM HEO (R65XWBV2NZ)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorldPhotos/WorldPhotos-Prefix.pch";
 				INFOPLIST_FILE = "WorldPhotos/WorldPhotos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D01A9FE8-039B-43FE-A6E0-5B611E671D01";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,11 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: GWANGNAM HEO (R65XWBV2NZ)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorldPhotos/WorldPhotos-Prefix.pch";
 				INFOPLIST_FILE = "WorldPhotos/WorldPhotos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D01A9FE8-039B-43FE-A6E0-5B611E671D01";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
