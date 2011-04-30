@@ -23,14 +23,14 @@
 		B41BDC6E136C5D0A00567760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B41BDC70136C5D0A00567760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B41BDC72136C5D0A00567760 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B41BDC76136C5D0A00567760 /* WorldPhotos-Info.plist */ = {isa = PBXFileReference; path = "WorldPhotos-Info.plist"; sourceTree = "<group>"; };
+		B41BDC76136C5D0A00567760 /* WorldPhotos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldPhotos-Info.plist"; sourceTree = "<group>"; };
 		B41BDC78136C5D0A00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B41BDC7A136C5D0A00567760 /* WorldPhotos-Prefix.pch */ = {isa = PBXFileReference; path = "WorldPhotos-Prefix.pch"; sourceTree = "<group>"; };
+		B41BDC7A136C5D0A00567760 /* WorldPhotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldPhotos-Prefix.pch"; sourceTree = "<group>"; };
 		B41BDC7B136C5D0A00567760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B41BDC7D136C5D0A00567760 /* WorldPhotosAppDelegate.h */ = {isa = PBXFileReference; path = WorldPhotosAppDelegate.h; sourceTree = "<group>"; };
+		B41BDC7D136C5D0A00567760 /* WorldPhotosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorldPhotosAppDelegate.h; sourceTree = "<group>"; };
 		B41BDC7E136C5D0A00567760 /* WorldPhotosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldPhotosAppDelegate.m; sourceTree = "<group>"; };
 		B41BDC81136C5D0A00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B41BDC83136C5D0A00567760 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		B41BDC83136C5D0A00567760 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B41BDC84136C5D0B00567760 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B41BDC87136C5D0B00567760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
