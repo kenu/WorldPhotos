@@ -28,6 +28,7 @@
 		B4860FD2136D1B4B0081E64E /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4860FD0136D1B4B0081E64E /* PhotoDetailViewController.xib */; };
 		B4860FD6136D25910081E64E /* PhotoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4860FD4136D25900081E64E /* PhotoMapViewController.m */; };
 		B4860FD7136D25910081E64E /* PhotoMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4860FD5136D25910081E64E /* PhotoMapViewController.xib */; };
+		B4860FE1136DD9370081E64E /* PhotoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4860FE0136DD9370081E64E /* PhotoTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		B4860FD3136D25900081E64E /* PhotoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoMapViewController.h; sourceTree = "<group>"; };
 		B4860FD4136D25900081E64E /* PhotoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoMapViewController.m; sourceTree = "<group>"; };
 		B4860FD5136D25910081E64E /* PhotoMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoMapViewController.xib; sourceTree = "<group>"; };
+		B4860FE0136DD9370081E64E /* PhotoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				B4860FD3136D25900081E64E /* PhotoMapViewController.h */,
 				B4860FD4136D25900081E64E /* PhotoMapViewController.m */,
 				B4860FD5136D25910081E64E /* PhotoMapViewController.xib */,
+				B4860FE0136DD9370081E64E /* PhotoTableCell.xib */,
 				B41BDCA0136C6B5E00567760 /* Resources */,
 				B41BDC75136C5D0A00567760 /* Supporting Files */,
 			);
@@ -209,6 +212,7 @@
 				B41BDC99136C690800567760 /* Asia_Japan_1.jpg in Resources */,
 				B4860FD2136D1B4B0081E64E /* PhotoDetailViewController.xib in Resources */,
 				B4860FD7136D25910081E64E /* PhotoMapViewController.xib in Resources */,
+				B4860FE1136DD9370081E64E /* PhotoTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,16 +64,22 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"PhotoTableCell" owner:self options:nil];
+        cell = [topLevelObjects objectAtIndex:0];
     }
     
     NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
-    cell.textLabel.text = [photoData valueForKey:@"Country"];
-    cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
-    cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    UILabel *label;
+    label = (UILabel *)[cell viewWithTag:2];
+    label.text = [photoData valueForKey:@"Country"];
+    
+    label = (UILabel *)[cell viewWithTag:3];
+    label.text = [photoData valueForKey:@"Region"];
+    
+    UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
+    imageView.image = [photoData valueForKey:@"Thumbnail"];
 
-    // Configure the cell.
     return cell;
 }
 
