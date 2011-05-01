@@ -53,7 +53,7 @@
     NSDictionary *asia_japan = [NSDictionary dictionaryWithObjectsAndKeys:@"Asia", @"Region", @"Japan", @"Country", photo, @"Photo", thumbnail, @"Thumbnail", location, @"Location",nil];
     [location release];
     
-    location = [[CLLocation alloc] initWithLatitude:35.700884 longitude:139.770893];
+    location = [[CLLocation alloc] initWithLatitude:46.981248 longitude:8.253908];
     
     photo = [UIImage imageNamed:@"Europe_Swiss_1.jpg"];
     

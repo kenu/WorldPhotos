@@ -24,6 +24,10 @@
 		B41BDC99136C690800567760 /* Asia_Japan_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41BDC93136C690800567760 /* Asia_Japan_1.jpg */; };
 		B41BDC9D136C6B1200567760 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC9C136C6B1200567760 /* CoreLocation.framework */; };
 		B41BDC9F136C6B2400567760 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BDC9E136C6B2400567760 /* MapKit.framework */; };
+		B4860FD1136D1B4B0081E64E /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4860FCF136D1B4B0081E64E /* PhotoDetailViewController.m */; };
+		B4860FD2136D1B4B0081E64E /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4860FD0136D1B4B0081E64E /* PhotoDetailViewController.xib */; };
+		B4860FD6136D25910081E64E /* PhotoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4860FD4136D25900081E64E /* PhotoMapViewController.m */; };
+		B4860FD7136D25910081E64E /* PhotoMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4860FD5136D25910081E64E /* PhotoMapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,12 @@
 		B41BDC93136C690800567760 /* Asia_Japan_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asia_Japan_1.jpg; sourceTree = "<group>"; };
 		B41BDC9C136C6B1200567760 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B41BDC9E136C6B2400567760 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B4860FCE136D1B4B0081E64E /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		B4860FCF136D1B4B0081E64E /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		B4860FD0136D1B4B0081E64E /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoDetailViewController.xib; sourceTree = "<group>"; };
+		B4860FD3136D25900081E64E /* PhotoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoMapViewController.h; sourceTree = "<group>"; };
+		B4860FD4136D25900081E64E /* PhotoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoMapViewController.m; sourceTree = "<group>"; };
+		B4860FD5136D25910081E64E /* PhotoMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,12 @@
 				B41BDC83136C5D0A00567760 /* RootViewController.h */,
 				B41BDC84136C5D0B00567760 /* RootViewController.m */,
 				B41BDC86136C5D0B00567760 /* RootViewController.xib */,
+				B4860FCE136D1B4B0081E64E /* PhotoDetailViewController.h */,
+				B4860FCF136D1B4B0081E64E /* PhotoDetailViewController.m */,
+				B4860FD0136D1B4B0081E64E /* PhotoDetailViewController.xib */,
+				B4860FD3136D25900081E64E /* PhotoMapViewController.h */,
+				B4860FD4136D25900081E64E /* PhotoMapViewController.m */,
+				B4860FD5136D25910081E64E /* PhotoMapViewController.xib */,
 				B41BDCA0136C6B5E00567760 /* Resources */,
 				B41BDC75136C5D0A00567760 /* Supporting Files */,
 			);
@@ -191,6 +207,8 @@
 				B41BDC97136C690800567760 /* Europe_Swiss_1.jpg in Resources */,
 				B41BDC98136C690800567760 /* Africa_Morocco_1.jpg in Resources */,
 				B41BDC99136C690800567760 /* Asia_Japan_1.jpg in Resources */,
+				B4860FD2136D1B4B0081E64E /* PhotoDetailViewController.xib in Resources */,
+				B4860FD7136D25910081E64E /* PhotoMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +222,8 @@
 				B41BDC7C136C5D0A00567760 /* main.m in Sources */,
 				B41BDC7F136C5D0A00567760 /* WorldPhotosAppDelegate.m in Sources */,
 				B41BDC85136C5D0B00567760 /* RootViewController.m in Sources */,
+				B4860FD1136D1B4B0081E64E /* PhotoDetailViewController.m in Sources */,
+				B4860FD6136D25910081E64E /* PhotoMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +342,7 @@
 				B41BDC8D136C5D0B00567760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
